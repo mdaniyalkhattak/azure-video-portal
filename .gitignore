@@ -1,0 +1,26 @@
+# Don't commit secrets
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+
+# OS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Compiled folders
+build/
+dist/
+*.egg-info/
