@@ -29,9 +29,6 @@ jobs:
       # ✅ Run automated tests
       - name: Run tests
         run: |
-          export AZURE_STORAGE_ACCOUNT="testaccount"
-          export AZURE_ACCOUNT_KEY="testkey"
-          export AZURE_BLOB_CONNECTION_STRING="UseDevelopmentStorage=true"
           pip install pytest
           pytest
 
